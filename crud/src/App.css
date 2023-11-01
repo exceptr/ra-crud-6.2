@@ -1,0 +1,61 @@
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
+.form-header {
+  display: flex;
+  margin-top: 15px;
+}
+
+.form-update {
+  height: 25px;
+  margin: 10px 0 0 10px;
+}
+
+.form-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 300px;
+  height: 100px;
+  resize: none;
+}
+
+.form-name {
+  margin-bottom: 5px;
+}
+
+.form-add {
+  margin-left: 5px;
+}
+
+.NotesWidget {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.note {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.note-content {
+  margin: 25px;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.note-dell {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
